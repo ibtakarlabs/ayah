@@ -78,18 +78,18 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.5 }}
           >
             <div className="stat">
-              <span className="stat-number">500+</span>
-              <span className="stat-label">Happy Clients</span>
+              <span className="stat-number" style={{ color: '#FFFFFF' }}>500+</span>
+              <span className="stat-label" style={{ color: '#FFFFFF' }}>Happy Clients</span>
             </div>
             <div className="stat-divider"></div>
             <div className="stat">
-              <span className="stat-number">8+</span>
-              <span className="stat-label">Years Experience</span>
+              <span className="stat-number" style={{ color: '#FFFFFF' }}>8+</span>
+              <span className="stat-label" style={{ color: '#FFFFFF' }}>Years Experience</span>
             </div>
             <div className="stat-divider"></div>
             <div className="stat">
-              <span className="stat-number">1000+</span>
-              <span className="stat-label">Looks Created</span>
+              <span className="stat-number" style={{ color: '#FFFFFF' }}>1000+</span>
+              <span className="stat-label" style={{ color: '#FFFFFF' }}>Looks Created</span>
             </div>
           </motion.div>
         </motion.div>
@@ -101,7 +101,7 @@ const Hero = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
         >
           <div className="visual-card">
-            <img src="/hero.avif" alt="AMK Artistry" className="hero-img" loading="eager" />
+            <img src="/hero.jpg" alt="AMK Artistry" className="hero-img" loading="eager" />
             <div className="visual-overlay"></div>
           </div>
         </motion.div>
