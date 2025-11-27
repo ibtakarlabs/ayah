@@ -79,14 +79,43 @@
 @media (max-width: 768px) {
   .section {
     padding: 60px 5%;
+    min-height: auto;
   }
 
   .section-title {
     margin-bottom: 40px;
+    font-size: clamp(2rem, 8vw, 3.5rem);
+    letter-spacing: 4px;
   }
 
   .btn {
-    padding: 12px 30px;
+    padding: 14px 28px;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 50px 5%;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 10vw, 2.5rem);
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+  }
+
+  .section-title::after {
+    width: 50px;
+    bottom: -10px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 0.85rem;
+  }
+
+  .container {
+    padding: 0 15px;
   }
 }

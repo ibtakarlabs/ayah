@@ -157,12 +157,54 @@
     display: flex;
   }
 
+  .navigation {
+    padding: 16px 0;
+  }
+
+  .navigation.scrolled {
+    padding: 12px 0;
+  }
+
   .logo-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
   }
 
   .logo-subtext {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
+    letter-spacing: 1.5px;
+  }
+
+  .mobile-menu {
+    width: 80%;
+    max-width: 100%;
+    padding: 80px 30px;
+  }
+
+  .mobile-nav-link {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+  }
+
+  .logo-subtext {
+    font-size: 0.55rem;
+    letter-spacing: 1px;
+  }
+
+  .mobile-menu {
+    width: 85%;
+    padding: 70px 25px;
+    gap: 25px;
+  }
+
+  .mobile-nav-link {
+    font-size: 1.2rem;
   }
 }
 
